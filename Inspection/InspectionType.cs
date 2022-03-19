@@ -9,5 +9,7 @@ namespace Inspection
         [StringLength(20)]
         public string InspectionName { get; set; } = string.Empty;
 
+        public string ArabicName { get; set; } = string.Empty;
+
     }
 }
